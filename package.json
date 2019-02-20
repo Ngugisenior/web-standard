@@ -20,11 +20,24 @@
     "standard-engine": "^10.0.0"
   },
   "devDependencies": {
-    "ava": "^1.2.1"
+    "ava": "^1.2.1",
+    "commitizen": "^3.0.5",
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^15.10.8"
   },
   "scripts": {
-    "test": "ava",
-    "test:watch": "ava --watch"
+    "commit": "git-cz",
+    "lint": "./src/bin.js",
+    "release": "semantic-release",
+    "test": "ava"
+  },
+  "publichConfig": {
+    "access": "public"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "engines": {
     "node": ">=8"
