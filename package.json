@@ -1,6 +1,6 @@
 {
   "name": "@system76/standard",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "System76 standard JavaScript linting",
   "bin": "src/bin.js",
   "main": "src/index.js",
