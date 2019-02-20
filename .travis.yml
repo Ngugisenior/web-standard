@@ -7,18 +7,10 @@ node_js: lts/*
 script:
   - npm run test
 
-jobs:
-  include:
-    - stage: Test
-      node_js: lts/*
-
-    - node_js: 8
-
-    - stage: Release
-      deploy:
-        provider: script
-        skip_cleanup: true
-        script: npm run release
-        on:
-          repo: system76/standard
-          branch: master
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: npm run release
+  on:
+    repo: system76/standard
+    branch: master
