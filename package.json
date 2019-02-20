@@ -31,7 +31,7 @@
     "release": "semantic-release",
     "test": "ava"
   },
-  "publichConfig": {
+  "publishConfig": {
     "access": "public"
   },
   "config": {
