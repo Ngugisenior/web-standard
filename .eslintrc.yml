@@ -10,9 +10,14 @@ env:
   browser: true
   node: true
 
+plugins:
+  - ava
+  - vue
+
 extends:
-  - standard
+  - plugin:ava/recommended
   - plugin:vue/recommended
+  - standard
 
 rules:
   # This is the default recommended with some custom keys added
