@@ -5,6 +5,20 @@
   <br>
 </div>
 
+<p align="center">
+  <a href="https://www.npmjs.com/package/@system76/standard/">
+    <img src="https://img.shields.io/npm/v/@system76/standard.svg" alt="npm">
+  </a>
+
+  <a href="https://travis-ci.org/system76/standard">
+    <img src="https://travis-ci.org/system76/standard.svg" alt="travis-ci">
+  </a>
+
+  <a href="https://greenkeeper.io/">
+    <img src="https://badges.greenkeeper.io/system76/standard.svg" alt="greenkeeper">
+  </a>
+</p>
+
 ---
 
 This is a System76 extension of [standard](https://github.com/feross/standard)
