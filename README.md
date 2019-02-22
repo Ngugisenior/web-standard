@@ -7,6 +7,8 @@
 
 ---
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/system76/standard.svg)](https://greenkeeper.io/)
+
 This is a System76 extension of [standard](https://github.com/feross/standard)
 that includes many plugins for tools we use in our projects. It _does not_
 change any standard rules. It does however add new ones.
