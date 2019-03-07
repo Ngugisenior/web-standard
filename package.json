@@ -9,7 +9,7 @@
     "url": "git+https://github.com/system76/web-standard.git"
   },
   "dependencies": {
-    "@system76/eslint-config-standard": "^1.0.0",
+    "@system76/eslint-config-standard": "^1.0.1",
     "eslint": "~5.6.0",
     "standard-engine": "^10.0.0"
   },

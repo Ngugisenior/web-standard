@@ -1,4 +1,4 @@
 ---
 
 extends:
-  - @system76/standard
+  - "@system76/standard"
