@@ -5,6 +5,8 @@ language: node_js
 node_js: lts/*
 
 script:
+  - npm audit
+  - npm run lint
   - npm run test
 
 deploy:
@@ -12,5 +14,5 @@ deploy:
   skip_cleanup: true
   script: npm run release
   on:
-    repo: system76/standard
+    repo: system76/web-standard
     branch: master
