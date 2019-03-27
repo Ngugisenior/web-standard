@@ -9,15 +9,15 @@
     "url": "git+https://github.com/system76/web-standard.git"
   },
   "dependencies": {
-    "@system76/eslint-config-standard": "^1.0.1",
-    "eslint": "~5.15.2",
+    "@system76/eslint-config-standard": "^1.0.2",
+    "eslint": "~5.15.3",
     "standard-engine": "^10.0.0"
   },
   "devDependencies": {
-    "ava": "^1.4.0",
+    "ava": "^1.4.1",
     "commitizen": "^3.0.7",
     "cz-conventional-changelog": "^2.1.0",
-    "semantic-release": "^15.10.8"
+    "semantic-release": "^15.13.3"
   },
   "scripts": {
     "commit": "git-cz",
