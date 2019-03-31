@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@system76/eslint-config-standard": "^1.0.2",
-    "eslint": "~5.15.3",
+    "eslint": "~5.16.0",
     "standard-engine": "^10.0.0"
   },
   "devDependencies": {
