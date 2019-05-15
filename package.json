@@ -17,7 +17,7 @@
     "ava": "^1.4.1",
     "commitizen": "^3.1.1",
     "cz-conventional-changelog": "^2.1.0",
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^15.13.12"
   },
   "scripts": {
     "commit": "git-cz",
